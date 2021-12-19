@@ -10,19 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.kelompok14.android.DataDiriApp.MainActivity"
-            android:label="Data Diri App"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name="com.kelompok14.android.DataDiriApp.SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.kelompok14.android.DataDiriApp.AddActivity"
-            android:label="Tambah Data"/>
-        <activity android:name="com.kelompok14.android.DataDiriApp.EditActivity"
-            android:label="Edit Data"></activity>
+        <activity
+            android:name="com.kelompok14.android.DataDiriApp.MainActivity"
+            android:label="Data Diri App"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.kelompok14.android.DataDiriApp.AddActivity"
+            android:label="Tambah Data" />
+        <activity
+            android:name="com.kelompok14.android.DataDiriApp.EditActivity"
+            android:label="Edit Data" />
     </application>
 
 </manifest>
